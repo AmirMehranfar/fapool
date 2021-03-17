@@ -1,0 +1,14 @@
+.about-hero-img {
+    max-width: 27%;
+}
+.hero-text-about.mt-5>span {
+    font-weight: 300;
+    line-height: 30px;
+}
+.about-hero-section {
+    background: #26c9dc26;
+    min-height: 250px;
+}
+.about-client-logo img {
+    width: 96px;
+}

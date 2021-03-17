@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fa">
+   <head>
+      <!-- meta tags -->
+      <meta charset="utf-8">
+      <meta name="keywords"/>
+      <meta name="description"/>
+      <meta name="author" content="amirMehranfar"/>
+      <meta name="viewport">
+      <!-- Title -->
+      <title>فاپول | داشبورد</title>
+      <!-- Favicon Icon -->
+      <link rel="shortcut icon" href="img/favicon.png"/>
+      <!-- inject css start -->
+      <link href="css/theme-plugin.css" rel="stylesheet"/>
+      <link href="css/theme.css" rel="stylesheet"/>
+      <link href="css/css2/admin.css" rel="stylesheet"/>
+      <!-- inject css end -->
+   </head>
+   <body style="background:none;">
+      <div class="wrapper">
+         <nav class="admin-header navbar navbar-default col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <!-- logo -->
+            <div class="navbar-brand-wrapper">
+               <a class="navbar-brand brand-logo" href="index.html"><img src="img/logo.png" alt="" ></a>
+               <a class="navbar-brand brand-logo-mini" href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <!-- Top bar left -->
+            <ul class="nav navbar-nav">
+               <li class="nav-item">
+                  <a id="button-toggle" class="button-toggle-nav inline-block ml-20 pull-left" href="#"><i class="fa fa-bars ti-align-right"></i></a>
+               </li>
+               <li class="nav-item">
+                  <div class="search">
+                     <a class="search-btn not_click" href="#"></a>
+                     <div class="search-box not-click">
+                        <input type="text" class="not-click form-control" placeholder="جستجو" value="" name="search">
+                        <button class="search-button" type="submit"> <i class="fa fa-search not-click"></i></button>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+            <!-- top bar right -->
+            <ul class="nav navbar-nav ml-auto user-pro-section">
+               <li class="nav-item dropdown mr-30">
+                  <a class="nav-link nav-pill user-avatar" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <img src="img/user-profile/01.jpg" alt="avatar">
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                     <a class="dropdown-item" href="#"><i class="fa fa-user-o"></i>پروفایل کاربری</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#"><i class="fa fa-cogs"></i>تنظیمات</a>
+                     <a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i>خروج</a>
+                  </div>
+               </li>
+            </ul>
+         </nav>
+         <!--=================================
+            header End-->
+         <div class="container-fluid">
+            <div class="row">
+               <!-- Sidebar start-->
+               <div class="side-menu-fixed">
+                  <div class="scrollbar side-menu-bg">
+                     <ul class="nav navbar-nav side-menu" id="sidebarnav">
+                        <!-- menu item Dashboard-->
+                        <li>
+                           <a href="#" >
+                              <div class="pull-left"><i class="fa fa-home"></i><span class="right-nav-text">داشبورد</span></div>
+                              <div class="clearfix"></div>
+                           </a>
+                        </li>
+                        <!-- menu title -->
+                        <li class="mt-2 mb-2 text-muted pr-3 font-medium menu-title descript-tab-silde">مدیریت محصولات </li>
+                        <!-- menu item Elements-->
+                        <li>
+                           <a href="#" data-toggle="collapse" data-target="#elements">
+                              <div class="pull-left"><i class="fa fa-shopping-cart"></i><span class="right-nav-text">فروشگاه</span></div>
+                              <div class="pull-right"><i class="fa fa-chevron-left"></i></div>
+                              <div class="clearfix"></div>
+                           </a>
+                           <ul id="elements" class="collapse" data-parent="#sidebarnav">
+                              <li><a href="#"> مدیریت فایل ها </a></li>
+                              <li><a href="#"> فایل های تخفیفی </a></li>
+                              <li><a href="#"> فایل های پروموت شده </a></li>
+                           </ul>
+                        </li>
+                        <!-- menu title -->
+                        <li class="mt-2 mb-2 text-muted pr-3 font-medium menu-title descript-tab-silde">مدیریت محتوا </li>
+                        <!-- menu item Elements-->
+                        <li>
+                           <a href="#" data-toggle="collapse" data-target="#elements1">
+                              <div class="pull-left"><i class="fa fa-leaf"></i><span class="right-nav-text">سیستم مدیریت محتوا</span></div>
+                              <div class="pull-right"><i class="fa fa-chevron-left"></i></div>
+                              <div class="clearfix"></div>
+                           </a>
+                           <ul id="elements1" class="collapse" data-parent="#sidebarnav">
+                              <li><a href="#"> تبلیغات </a></li>
+                              <li><a href="#"> مدیریت منو </a></li>
+                              <li><a href="#"> میریت تصاویر </a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" >
+                              <div class="pull-left"><i class="fa fa-usd"></i><span class="right-nav-text">مدیریت حسابداری</span></div>
+                              <div class="clearfix"></div>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" >
+                              <div class="pull-left"><i class="fa fa-sign-out"></i><span class="right-nav-text">خروج</span></div>
+                              <div class="clearfix"></div>
+                           </a>
+                        </li>
+                     </ul>
+                     </li>
+                     </ul>
+                  </div>
+               </div>
+               <!--Sidebar End-->
+               <!--=================================
+                  wrapper -->
+               <div class="content-wrapper"></div>
+            </div>
+         </div>
+      </div>
+      <!-- inject js start -->
+      <script src="js/theme-plugin.js"></script>
+      <script>
+         /*************************
+             Sidebarnav
+         *************************/ 
+           /*Sidebar Navigation*/
+             $(document).on('click', '#button-toggle', function (e) {
+               $(".dropdown.open > .dropdown-toggle").dropdown("toggle");
+               return false;
+             });
+             $(document).on('click', '#button-toggle', function (e) {
+               $('.wrapper').toggleClass('slide-menu');
+               return false;
+             });
+         
+             $(document).on("mouseenter mouseleave",".wrapper > .side-menu-fixed", function(e) {
+               if (e.type == "mouseenter") {
+                 $wrapper.addClass("sidebar-hover"); 
+               }
+               else { 
+                 $wrapper.removeClass("sidebar-hover");  
+               }
+               return false;
+             });
+             $(document).on("mouseenter mouseleave",".wrapper > .side-menu-fixed", function(e) {
+               if (e.type == "mouseenter") {
+                 $wrapper.addClass("sidebar-hover"); 
+               }
+               else { 
+                 $wrapper.removeClass("sidebar-hover");  
+               }
+               return false;
+             });
+             
+             $(document).on("mouseenter mouseleave",".wrapper > .setting-panel", function(e) {
+               if (e.type == "mouseenter") {
+                 $wrapper.addClass("no-transition"); 
+               }
+               else { 
+                 $wrapper.removeClass("no-transition");  
+               }
+               return false;
+             });
+         
+               jQuery('.search-btn').on("click", function () {
+                  jQuery('.search').toggleClass("search-open");
+                    return false;
+                   });
+                jQuery("html, body").on('click', function (e) {
+                 if (!jQuery(e.target).hasClass("not-click")) {
+         
+                      jQuery('.search').removeClass("search-open");
+                  }
+              });
+      </script>
+   </body>
+</html>

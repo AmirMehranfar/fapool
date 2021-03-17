@@ -1,0 +1,195 @@
+.about-hero-section {
+    background-image: url('../../img/speakers-bg-black.jpg');
+    min-height: 200px;
+	background-size: cover;
+    background-position: bottom;
+}
+.logo-hero {
+    position: relative;
+}
+.logo-hero img {
+    position: absolute;
+    top: 48px;
+}
+.product-name.link-title {
+   color: #1d1d33 !important;
+    font-size: 13px;
+    box-shadow: 0px 4px 5px -3px rgb(0 0 0 / 3%);
+    padding: 0px 0px 11px 0px;
+    padding: 10px 10px 5px 10px;
+    min-height: 73px;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: right;
+    color: #111;
+    clear: both;
+}
+.text-muted-del {
+    color: #f22c23;
+    font-size: 12px;
+}
+a {
+    color: #007bff;
+    text-decoration: none !important;
+    background-color: transparent;
+}
+.catgory-title i {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    padding: 6px !important;
+}
+.product-page {
+    background: #eeeff1;
+    padding-top: 22px;
+}
+.product-page .product-item {
+    background: #fff;
+    border-radius: 10px;
+	display: inline-block;
+}
+.product-page .padding-set {
+    padding: 0px 7px;
+}
+.product-page .product-desc{
+    box-shadow: 0 0 12px 0 rgba(55,73,72,.06);
+}
+.product-page .product-item img {
+    border-radius: 3px;
+}
+.product-page .product-item {
+    position: relative;
+    z-index: 1;
+}
+.product-page .product-item:hover .add-to-cart-wrap a {
+    color: #fff;
+    background-color: #29b74b;
+    transition: .5s;
+}
+.product-page .product-item {
+    transition: .5s;
+}
+.product-page .product-item:after {
+    content: '';
+    background-color: #fff;
+    right: 7px;
+    left: 7px;
+    bottom: -5px;
+    position: absolute;
+    height: 20px;
+    border-radius: 8px;
+    z-index: -1;
+}
+.catgory-title {
+    background-color: rgba(0,0,0,.1);
+	border-radius : 7px;
+	    font-size: 13px;
+		    color: #fff;
+}
+.products-header.block-title i {
+    width: 27px;
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+}
+.products-header.block-title i {
+    width: 27px;
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+    width: 35px;
+    height: 32px;
+    background-color: #e5aa08;
+    border-radius: 45px 15px 45px 45px;
+    padding-top: 6px;
+}
+.product-desc .product-price {
+    font-size: 13px;
+    float: left;
+    font-weight: 500;
+    font-size: 13px;
+    color: #585c5f;
+    letter-spacing: -.01em;
+    /* font-family: IRANSansnum; */
+    padding: 6px 0 10px 8px;
+}
+.add-to-cart-wrap {
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+    text-align: right;
+}
+.add-to-cart-wrap a {
+    line-height: 35px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 15px 2px 15px 15px;
+    background-color: #e4e6e8;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.filter-box {
+    border-radius: 5px 49px 5px 5px;
+    overflow: hidden;
+    display: block;
+}
+.add-to-cart-wrap a i {
+    text-indent: 9999px;
+}
+.cat-title-widget {
+    display: inline-block;
+    color: #fff;
+    padding: 14px 14px 14px 7px;
+    z-index: 2;
+    box-shadow: 0 14px 28px -15px rgb(0 0 0 / 8%);
+    position: absolute;
+    width: 134px;
+    height: 45px;
+    background: #02BFD7;
+    z-index: 5;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 16px;
+    right: 37px;
+    top: 0px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 20px 5px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.filter-list .current-cat {
+    color: red;
+}
+.filter-list .list-group-item {
+    padding: 0 29px 0 0;
+    font-size: 12px;
+	border-top: 1px dashed #eaeaea !important;
+}
+.filter-list li:first-child>.list-group-item {
+    border-top: none !important;
+}
+.filter-list .list-group-item:before {
+    padding: 0 20px 0 0;
+    position: absolute;
+    content: "\f104";
+    display: inline-block;
+    font-weight: 300;
+    line-height: 1;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    line-height: 12px;
+    font-size: 13px;
+    right: 0;
+	font-family: FontAwesome;
+    top: 9px;
+}

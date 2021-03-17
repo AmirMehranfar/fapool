@@ -1,0 +1,36 @@
+.form-control {
+    height: 3rem;
+    font-size: 0.8rem;
+}
+.info-fapool i {
+    font-size: 20px;
+}
+.contactUs-hero-section {
+    background: #26c9dc26;
+    min-height: 250px;
+}
+.info-fapool:before {
+    content: '';
+    position: absolute;
+    top: 31px;
+    left: -41px;
+    width: 330px;
+    height: 300px;
+    border-radius: 50% 100% 100% 50%/69% 75% 75% 69%;
+    background-color: hsla(0,0%,100%,.15);
+    transform: rotate(60deg);
+}
+.info-fapool {
+    background: #00bfd6;
+    color: #fff;
+	border-radius: 8px;
+	margin-top: 6rem !important;
+    padding: 35px 25px 25px 25px;
+}
+.contactUs-hero-img {
+    max-width: 27%;
+}
+.hero-text-contactUs.mt-5>span {
+    font-weight: 300;
+    line-height: 30px;
+}
