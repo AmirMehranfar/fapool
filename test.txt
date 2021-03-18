@@ -1,2 +1,7 @@
 azzdf
-awrqwar
+<<<<<<< HEAD
+
+=======
+
+asdfafSFASGSDFASFSRGSEF
+>>>>>>> test
